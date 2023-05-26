@@ -1,0 +1,45 @@
+.activity {
+    height: 320px;
+    width: 1000px;
+    margin-bottom: 4rem;
+    margin-right: 200px;
+    background-color: #fbfbfb;
+    border-radius: 5px;
+}
+
+.activity__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.activity__header h3 {
+    margin-top: 0;
+    font-size: 15px;
+    color: #20253a;
+}
+
+.activity__legend {
+    color: #74798c;
+    font-size: 14px;
+}
+
+.legend {
+    margin-right: 5px;
+    margin-left: 50px;
+}
+
+.tooltip {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #e60000;
+    color: #fff;
+}
+
+.poids {
+    margin-bottom: 5px;
+}

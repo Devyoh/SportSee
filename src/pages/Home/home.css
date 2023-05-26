@@ -1,0 +1,13 @@
+.home_container {
+    max-width: 1240px;
+  margin-left: 15rem;
+}
+.home_container a {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    color: red;
+  }
+  .home_title {
+    margin: 4rem 0rem;
+  }

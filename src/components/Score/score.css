@@ -1,0 +1,39 @@
+.score {
+    width: 258px;
+    height: 263px;
+    background-color: #fbfbfb;
+    border-radius: 5px;
+}
+
+.score__header {
+    padding: 24px 24px 0 24px;
+}
+
+.score__header h1 {
+    margin: 0;
+}
+
+.score__label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #fff;
+    bottom: 64%;
+    left: 25%;
+    width: 45%;
+    height: 45%;
+    border-radius: 50%;
+}
+
+.score__number {
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.score__text {
+    font-size: 14px;
+    margin-left: 10px;
+}

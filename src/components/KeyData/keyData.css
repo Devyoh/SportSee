@@ -1,0 +1,38 @@
+.informations {
+    display: flex;
+    flex-direction: column;
+}
+
+.informations__calories,
+.informations__protein,
+.informations__carbs,
+.informations__fat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    background-color: #fbfbfb;
+    height: 124px;
+    width: 258px;
+    border-radius: 5px;
+}
+
+.informations h1,
+.informations p {
+    margin: 0;
+}
+
+.informations h1 {
+    font-size: 20px;
+    color: #282d30;
+}
+
+.informations p {
+    font-size: 14px;
+    color: #74798c;
+}
+
+.informations img {
+    margin-right: 20px;
+    margin-left: -30px;
+}
