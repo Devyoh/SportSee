@@ -5,6 +5,12 @@ main {
     margin-top: 3rem;
 }
 
+.user__charts {
+    width: 1000px;
+}
+.user {
+    width: 80vw;
+}
 .user_container {
     max-width: 1240px;
     width: 100%;
@@ -12,6 +18,12 @@ main {
     margin-top: 2%;
 }
 
+.user__infos span{
+    color: red;
+}
+.user__infos {
+margin: 1rem 0;
+}
 .user_content {
     display: flex;
     flex-wrap: wrap;
@@ -20,8 +32,12 @@ main {
     width: 100%;
 }
 
+.user__charts {
+    display: flex;
+}
+
 .charts-container-flex {
-    max-width: 75%;
+    max-width: 100%;
     display: flex;
     justify-content: space-around;
     

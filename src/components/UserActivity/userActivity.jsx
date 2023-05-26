@@ -46,7 +46,7 @@ const UserActivity = ({ activity }) => {
                 </div>
             </div>
 
-            <ResponsiveContainer width="100%" height="75%">
+            <ResponsiveContainer width="100%" height="70%">
                 <BarChart
                     data={activity}
                     width={500}
